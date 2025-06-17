@@ -5,9 +5,9 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  
+
   source:
-    repoURL: https://github.com/efi-pasaar/learning-with-argocd.git
+    repoURL: https://github.com/efi-pasaar/learning-with-argocd
     targetRevision: HEAD
     path: dev
 
