@@ -8,7 +8,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/nginxinc/kubernetes-ingress.git
+    repoURL: https://github.com/efi-pasaar/local-k9s-ingress-controller.git
     targetRevision: HEAD
     path: dev
 
