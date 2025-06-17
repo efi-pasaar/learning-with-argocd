@@ -1,27 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
-  namespace: myapp
+  name: myapp-deployment
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
-      app: nginx-deployment
+      app: myapp
   template:
     metadata:
       labels:
-        app: nginx-deployment
+        app: myapp
     spec:
       containers:
-        - name: nginx
-          image: nginx:stable
+        - name: myapp
+          image: bitnami/argo-cd:latest
           ports:
-            - containerPort: 80
-          resources:
-            requests:
-              cpu: "100m"
-              memory: "128Mi"
-            limits:
-              cpu: "500m"
-              memory: "256Mi"
+            - containerPort: 8080
