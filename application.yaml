@@ -10,11 +10,11 @@ spec:
   source:
     repoURL: https://github.com/efi-pasaar/learning-with-argocd.git
     targetRevision: HEAD
-    path: kubernetes/myapp
+    path: dev
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev
+    namespace: myapp
   
   syncPolicy:
     syncOptions:
