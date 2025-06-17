@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: bitnami/argo-cd:latest
+          image: nginx:stable
           ports:
-            - containerPort: 8080
+            - containerPort: 80
           resources:
             requests:
               cpu: "100m"
