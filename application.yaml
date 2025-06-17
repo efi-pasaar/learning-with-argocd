@@ -8,7 +8,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/efi-pasaar/learning-with-argocd.git
+    repoURL: https://github.com/nginxinc/kubernetes-ingress.git
     targetRevision: HEAD
     path: dev
 
