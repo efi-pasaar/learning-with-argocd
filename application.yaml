@@ -8,7 +8,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/efi-pasaar/learning-with-argocd
+    repoURL: https://github.com/efi-pasaar/learning-with-argocd.git
     targetRevision: HEAD
     path: kubernetes/myapp
 
