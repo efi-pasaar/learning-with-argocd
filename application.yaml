@@ -1,3 +1,4 @@
+# This file defines an ArgoCD Application resource for deploying a sample application.
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
